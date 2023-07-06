@@ -1,0 +1,11 @@
+{
+    "Cliente": {
+      "nomeInput": "nome",
+      "sobrenomeInput": "sobrenome",
+      "nomeUsuarioInput": "nomeUsuario",
+      "emailInput": "email",
+      "senhaInput": "senha",
+      "salvarBtn": "salvarBtn"
+    }
+  }
+  

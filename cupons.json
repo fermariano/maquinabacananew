@@ -1,0 +1,16 @@
+{
+    "cupons": [
+        {
+            "nome": "maquinabacana10",
+            "valor": 10
+        }, 
+        {
+            "nome": "lubatv15",
+            "valor": 15
+        },
+        {
+            "nome": "ballerini20",
+            "valor": 20
+        }
+    ]
+}

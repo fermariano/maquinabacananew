@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    background-color: black;
+    color: aliceblue;
+    font-family: Roboto Mono;
+}
+
+input {
+    border-radius: 7px;
+}
+
+form {
+    background-color: rgb(105, 105, 105);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+button {
+    width: auto;
+    height: 30px;
+    background-color: azure;
+    font-size: 14px;
+    font-family: Arial;
+    border-radius: 7px;
+}
+
+button:hover {
+    background-color: rgb(168, 182, 182);
+}
+
+select {
+    border-radius: 7px;
+}
+
+textarea {
+    border-radius: 7px;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Buying</title>
+</head>
+<body>
+    <header>
+        <div class="header-socialmedia">
+            <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div>
+
+        <p>MAQUINA BACANA</p>
+
+        <div class="header-changes">
+            <p>BRL R$</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+            <p>PORTUGUES</p>
+            <ion-icon name="chevron-down-outline"></ion-icon>
+        </div>
+
+    </header>
+
+    <div class="buying-container">
+        
+        <h1 class="buying-title">Cart</h1>
+
+        <div class="buying-products">
+
+
+            <div class="cupom-container">
+                <div class="cupom_box">
+                    <textarea id="cupom" placeholder="Cupom de desconto"></textarea>
+                </div>
+            
+                <div class="aplicar_cupom_box">
+                    <button id="botao" onclick="getTextareaValue()">
+                    <h1>Aplicar</h1>
+                    </button>
+                </div>
+            </div>
+
+        
+            <p id="result"></p>
+        </div>
+
+    </div>
+
+    <footer>
+        <h1 class="footer-title">QUALIDADE CONFIRMADA</h1>
+        <h1 class="footer-description">TODAS MÁQUINAS PASSAM POR UMA ESTRITA ROTINA DE TESTES QUE GARANTE MÁXIMA ESTABILIDADE E DESEMPENHO ANTES DE CHEGAR ÀS SUAS MÃOS.</h1>
+        <div class="footer-category-container">
+            <div>
+                <h1>CATEGORIAS POPULAR</h1>
+                <a href="#">Peças</a>
+                <a href="#">Periféricos</a>
+                <a href="#">Pc's Montados</a>
+            </div>
+            <div>
+                <h1>PRODUTOS</h1>
+                <a href="#">Placas De Vídeo</a>
+                <a href="#">Placa Mãe</a>
+                <a href="#">Processadores</a>
+            </div>
+            <div>
+                <h1>NOSSA COMPANHIA</h1>
+                <a href="#">Contate-Nos</a>
+                <a href="#">Redes Sociais</a>
+                <a href="#">Termos E Condições</a>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Pague Seguro</a>
+            </div>
+            <div>
+                <h1>SERVIÇOS</h1>
+                <a href="#">Ajuda Para As Montagens</a>
+                <a href="#">Novos Produtos</a>
+                <a href="#">Explicações Das Peças</a>
+            </div>
+            <div>
+                <h1>CONTATOS</h1>
+                <a href="#"><ion-icon name="location-outline"></ion-icon>Av. Brasil, 2023 - Funcionários, Belo Horizonte - MG, 30140-002</a>
+                <a href="#"><ion-icon name="call-outline"></ion-icon>(31) 99920-8581</a>
+                <a href="#"><ion-icon name="mail-outline"></ion-icon>MaquinaBacana@Gmail.Com</a>
+            </div>
+        </div>
+    </footer>
+
+<script src="cupons.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

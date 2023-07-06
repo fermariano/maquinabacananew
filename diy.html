@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Do it yourself</title>
+	<link rel="stylesheet" href="diy.css">
+	<script src="diy.js"></script>
+</head>
+<body>
+	<h3>Monte seu computador!</h3>
+	<p>Selecione o produto de seu interesse:</p>
+	<p> 
+		<select id="produto" name="product" required>
+		<option disabled selected value="">Selecione o Produto</option>
+		<option value="Desktop">Desktop</option>
+		<option value="Notebook">Notebook</option>
+		<option value="Tablet">Tablet</option>
+	  </select>
+	</p>
+	<p>Selecione a sua média de orçamento:</p>
+	<p>
+		<select id="orc" name="orcamento" required>
+		<option disabled selected value="">Selecione o valor</option>
+		<option value="1">R$1.500 - R$2.500</option>
+		<option value="2">R$3.000 - R$4.000</option>
+		<option value="3">R$4.500 - R$5.000</option>
+		<option value="4">R$5.500 - R$6.500</option>
+		<option value="5">R$7.000 - R$8.000</option>
+		<option value="6">R$9.000 - R$9.500</option>
+		<option value="7">R$10.000+</option>
+	  </select>
+	</p>
+	<p>Selecione o motivo da montagem do computador:</p>
+	  <p>
+		<select id="tipo" name="Tipo de montagem" required>
+		<option disabled selected value="">Selecione o tipo</option>
+		<option value="jl">Jogos leves</option>
+		<option value="jp">Jogos com gráficos mais pesados</option>
+		<option value="tb">Trabalho básico</option>
+		<option value="tp">Trabalho que requer processamento</option>
+		<option value="es">Estudo</option>
+	  </select>
+	</p>
+	<p>Selecione o modo de montagem:</p>
+	<p>
+		<select id="modo" name="Modo de montagem" required>
+			<option disabled selected value="">Selecione o modo</option>
+			<option value="pp">Peça por peça</option>
+			<option value="mon">Montado</option>
+		  </select>
+	</p>
+	  <button id="enviar" onclick="imprimeCupons()">Montar</button>
+	  <div id="info-message"></div>
+	
+</body>
+</html>
+

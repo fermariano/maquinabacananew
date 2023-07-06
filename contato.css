@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    font-family: Roboto Mono;
+    background-color: black;
+    color: aliceblue;
+}
+
+#bigdiv {
+    
+    border-radius: 10px;
+    padding: 1%;
+}
+
+button {
+    height: 30px;
+    width: auto;
+    border-radius: 7px;
+    background-color: #FFA3FD;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #E384FF;
+}
+
+input, textarea {
+    background-color: rgb(221, 221, 221);
+    border-radius: 7px;
+}

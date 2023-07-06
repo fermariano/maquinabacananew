@@ -1,0 +1,99 @@
+body{
+  text-decoration: none;
+  font-family: sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  color: #5c5c5c;
+  margin-top: 5rem;
+}
+main{
+  width: min(70ch, 100% - 4rem);
+  margin-inline: auto;
+}
+h3 {
+  margin: 5px;
+  padding: 5px;
+  color: rgba(56, 23, 166);
+}
+
+/*código css para o input*/
+input{
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border-color:rgba(56, 23, 166)
+}
+
+.label{
+  display: block;
+  margin: 0.5rem;
+}
+
+/*código css para a parte que mostra o valor de cada parcela*/
+.resultado{
+  margin: 1rem 0.6rem;
+  margin-bottom: 0.1rem;
+  text-align: center;
+  display: block;
+  padding-top:  0.1rem;
+}
+.valorParcela{
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.5rem;
+  font-weight: 750;
+  border: #5727ac 0.125rem solid;
+  border-radius: 0.45rem;
+  max-width: min(20ch, 100% - 4rem);
+  border-color:rgba #6125BB;
+}
+/*código css para os butttons*/
+button {
+  margin: 1.250rem 1.125rem;
+  padding: 0.6rem 1.2rem;
+  border: unset;
+  border-radius: 1rem;
+  color: #4A12AB;
+  z-index: 1;
+  background: #ffffff;
+  position: relative;
+  font-weight: 750;
+  font-size: 0.75rem;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms;
+  overflow: hidden;
+ }
+ 
+ button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-radius: 15px;
+  background-color: #4A12AB;
+  z-index: -1;
+  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+  transition: all 250ms
+ }
+ 
+ button:hover {
+  color: #e8e8e8;
+ }
+ 
+ button:hover::before {
+  width: 100%;
+ }
+ 
+ .card {
+  border: 1px solid #5c5c5c;
+  border-radius: 0.75rem;
+  max-width: min(50ch, 100% - 4rem);
+  margin: 0 auto;
+
+}

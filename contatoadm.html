@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="contato.js"></script>
+    <link rel="stylesheet" href="contato.css">
+    <title>Contato</title>
+  </head>
+  <body>
+    <div id="bigdiv">
+    <h1>Entre em Contato</h1>
+    <p>Se você precisar de ajuda ou tiver alguma dúvida, entre em contato conosco preenchendo o formulário abaixo:</p>
+      
+    <div id="pessoal">
+    <h2>Informações Pessoais</h2>
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+    </div>
+        
+      <div id="assunto">
+        <h2>Assunto e Mensagem</h2>
+        <label for="subject">Assunto:</label>
+        <input type="text" id="subject" name="subject" required>
+        <br>
+        <label for="message">Mensagem:</label>
+        <br>
+        <textarea id="message" name="message" rows="5" cols="50" required></textarea>
+
+      </div>
+      
+    
+    <div id="info-message"></div>
+    <button id="loaddado" onclick="imprimeCupons()">Carregar mensagens (adm)</button>
+  </div>
+  </body>
+</html>

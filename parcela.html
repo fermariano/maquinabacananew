@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulador de Parcelamentos</title>
+    <link rel="stylesheet" href="parcela.css" />
+  </head>
+  <body>
+
+    <div class="card">
+
+        <!--Título-->
+        <h3>Parcelamento das Compras</h3>
+      
+      <!--input valor total-->
+      <div class="inputGroup" id="input-valorTotal">
+        <label class="label" for="name">Valor total:</label>
+        <input type="text" autocomplete="off" placeholder="R$1000" />
+      </div>
+
+      <!--input número de parcelas-->
+      <div class="inputGroup" id="input-numParcelas">
+        <label class="label" for="name">Número de parcelas:</label>
+        <input
+          type="text"
+          autocomplete="off"
+          placeholder="Número de parcelas"
+        />
+      </div>
+
+      <!--div que mostra o valor de cada parcela-->
+      <div class="resultado">
+        Valor de cada parcela: 
+        <div class="valorParcela" id="valorParcela">
+            R$ 0.00
+        </div>
+      </div>
+
+      <!--botão de limpar os valores do input-->
+      <button id="clear-btn">limpar</button>
+      <!--botão de calcular o número de parcelas-->
+      <button id="calcular-btn">calcular</button>
+    </div>
+    <script src="parcela.js"></script>
+  </body>
+</html>

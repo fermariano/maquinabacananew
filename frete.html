@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="frete.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="blocoCalcularFrete">
+        <span class="textoConsultarFrete">Consultar frete e prazo de entrega</span>
+        <form class="formularioCalcularFrete">
+            <div class="search-box">
+                <input id="fretee" type="text" class="search-txt" placeholder="Inserir CEP" value="">
+                <button value="OK" onclick="incluirCupom()">OK</button>
+            </div>
+            <a id="linkEsqueciCep" target="_blank" href="https://buscacepinter.correios.com.br/app/endereco/index.php?t"
+                class="EsqueciCEP">Não lembro meu CEP</a>
+        </form>
+    </div>
+    <div id="res"></div>
+<script src="frete.js"></script>
+</body>
+
+</html>

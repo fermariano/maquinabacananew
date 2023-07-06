@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+    
+    span.textoo{
+        color:#4A12AB;
+        font-size: 27px;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    p {
+        color:#4A12AB;
+        font-size: 16px;
+        font-family: Roboto Mono;
+    }
+    
+    input#experiencia.search-txt{
+        width: 400px;
+        height: 50px;
+
+    }
+
+    button {
+        width: auto;
+        height: 30px;
+        border-radius: 10px;
+        background-color:#b794f3;
+        font-size: 15px;
+    }
+
+    button:hover {
+        background-color: #8f74be;
+    }
+

@@ -1,0 +1,64 @@
+div.formulariofrete{
+    size: 800px x 44px;
+    color:#4A12AB;
+    font-size: 27px;
+    font-family: "Poppins", sans-serif;
+
+    }
+span.textoConsultarFrete{
+    color:#4A12AB;
+    font-size: 27px;
+    font-family: "Poppins", sans-serif;
+}
+a#linkEsqueciCep.EsqueciCep{
+ color:#4A12AB;
+font-size: 27px;
+font-family: "Poppins", sans-serif;
+}
+form.formularioCalcularFrete{
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: auto;
+        padding: 16px 0px 0px;
+        padding: 10px 15px;
+        padding-right: 50px;
+        border: 1px solid var(--cultured);
+        -webkit-border-radius: var(--border-radius-md);
+        border-radius: var(--border-radius-md);
+        color:#4A12AB;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+
+
+    }
+    
+    input#fretee.search-txt{
+        width: 220px;
+        height: 35px;
+        border-radius: 10px;
+
+    }
+    
+    div.blocoCalcularFrete{
+        padding: 16px 0px 0px;
+    }
+    
+    
+    .EsqueciCep{
+        color:#4A12AB;
+        font-size: 27px;
+        font-family: "Poppins", sans-serif;
+
+    }
+
+    button {
+        height: 35px;
+        border-radius: 10px;
+        background-color: #b28fee;
+        color: aliceblue;
+    }
+
+    button:hover {
+        background-color:#8166b1 ;
+    }

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    font-family: Roboto Mono;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+
+#title {
+    font-size: 28px;
+    color: fuchsia;
+    margin-top: 10px;
+}
+
+#separar {
+    text-align: left;
+
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    border: 5px solid rgb(109, 109, 109);
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+a:hover {
+    color: rgb(168, 168, 168);
+}
+
+span {
+    font-size: 22px;
+}

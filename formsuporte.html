@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="formsuporte.css">
+    <title>Formulário Suporte Máquina Bacana</title>
+    <script src="formsuporte.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+    <div class="blocotextoformulario">
+        <span class="textoo">Formulário para trabalhar no suporte Máquina Bacana</span>
+
+    <div class="areadoformulario">
+        <span class="textoinstrucao">Preencha os campos a seguir:</span>
+        <form class="formulariosuporte">
+            <p class="nomepessoa">Seu nome:</p>
+            <div class="search-box">
+                <input id="nome" type="text" class="search-txt" placeholder="" value="" onkeyup="verificarCampos()">
+                    
+            <p class="idadepessoa">Sua idade:</p>
+            <div class="search-box">
+                <input id="idade" type="text" class="search-txt" placeholder="" value="" onkeyup="verificarCampos()">
+
+            <p class="sexopessoa">Sexo:</p>
+            <div class="search-box">
+                <input id="sexo" type="text" class="search-txt" placeholder="" value="" onkeyup="verificarCampos()">
+
+            <p class="formaçãopessoa">Sua formação:</p>
+            <div class="search-box">
+                <input id="formacao" type="text" class="search-txt" placeholder="" value="" onkeyup="verificarCampos()">
+
+            <p class="experienciapessoa">Agora conte pra gente sua experiência dentro de outras empresas ou empregos antigos:</p>
+            <div class="search-box">
+                <input id="experiencia" type="text" class="search-txt" placeholder="" value="" onkeyup="verificarCampos()">
+
+            <p class="emailpessoa">Email:</p>
+            <div class="search-box">
+                <input id="email" type="text" class="search-txt" placeholder="" value="" onkeyup="verificarCampos()">
+            <p class="Telefonepessoa">Telefone para contato:</p>
+            <div class="search-box">
+                <input id="telefone" type="text" class="search-txt" placeholder="" value="" onkeyup="verificarCampos()">
+        </form>
+        <p>
+        <button onclick="salvarDados()" >Enviar!</button>
+    </p>
+    </div>
+    <div id="res"></div>
+</body>
+</html>
+    

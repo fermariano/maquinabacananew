@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono:wght@700&family=Roboto:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+
+body {
+    font-family: Roboto Mono;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+p {
+    font-size: 16px;
+}
+
+select {
+    width: 18%;
+    height: 25px;
+    border-radius: 10px;
+}
+
+#enviar {
+    width: 15%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+#enviar:hover {
+    background-color: rgb(159, 164, 168);  
+}
+
+#title {
+    font-size: 22px;
+    color: fuchsia;
+}
+
+#separar {
+    text-align: left;
+
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    border: 5px solid rgb(109, 109, 109);
+}
+
+.button2 {
+    display: inline-block;
+    transition: all 0.2s ease-in;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    box-shadow: 2px 2px 4px #c5c5c5,
+               -2px -2px 4px #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .button2:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+               inset -4px -4px 12px #ffffff;
+  }
+  
+  .button2:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.25);
+    top: 100%;
+    width: 140%;
+    height: 180%;
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:after {
+    content: "";
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%) scaleY(1) scaleX(1.45);
+    top: 180%;
+    width: 160%;
+    height: 190%;
+    background-color: fuchsia;
+    border-radius: 50%;
+    display: block;
+    transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+    z-index: -1;
+  }
+  
+  .button2:hover {
+    color: #ffffff;
+    border: 1px solid fuchsia;
+  }
+  
+  .button2:hover:before {
+    top: -35%;
+    background-color: fuchsia;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
+  .button2:hover:after {
+    top: -45%;
+    background-color: fuchsia;
+    transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+  }
+  
